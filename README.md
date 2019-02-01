@@ -5,7 +5,7 @@
 [![GitHub release](https://img.shields.io/homebrew/v/terraform-inventory.svg?maxAge=2592000)](http://braumeister.org/formula/terraform-inventory)
 
 This is a little Go app which generates a dynamic [Ansible][ans] inventory from
-a [Terraform][tf] state file. It allows one to spawn a bunch of instances with 
+a [Terraform][tf] state file. It allows one to spawn a bunch of instances with
 Terraform, then (re-)provision them with Ansible.
 
 The following providers are supported:
@@ -23,6 +23,7 @@ The following providers are supported:
 * Scaleway
 * SoftLayer
 * VMware
+* Linode
 
 It's very simple to add support for new providers. See pull requests with the
 [provider][pv] label for examples.
